@@ -1,0 +1,28 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+
+    List<string> superHeroes = new List<string> { "Iron Man", "Captain America", "Spider-Man", "Ant-Man" };
+    List<string> rainbow = new List<string> { "red", "orange", "yellow",
+    "green", "blue", "indigo", "violet" };
+
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<ul>
+    @foreach (var hero in superHeroes)
+    {
+        <li>@hero</li>
+    }
+</ul>
+
+<table>
+    @foreach (var color in rainbow)
+    {
+        <tr><td>Rainbow colour is: @color</td></tr>
+    }
+</table>

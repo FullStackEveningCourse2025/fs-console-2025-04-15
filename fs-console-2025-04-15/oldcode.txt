@@ -1,0 +1,29 @@
+
+
+
+/*
+string greeting = "Hello, World!"; // this is comment , text is contained in double quotes
+
+Console.WriteLine(greeting);
+
+// string interpolation
+string name = "John Doe";
+int age = 30; //int is short for integer 12,10, 150
+Console.WriteLine($"Welcome {name}. You are {age} years old"); // this is comment , text is contained in double quotes
+
+string message = $"Welcome {name}. You are {age} years old";
+
+Console.WriteLine(message);
+
+*/
+
+//string firstName = "John";
+//string lastName = "Doe";
+//int age = 30;
+//string city = "New York";
+//string streetAddress = "123 Main St";
+//string country = "USA";
+//string greeting = $"Hello, my name is {firstName} {lastName}. I am {age} years old and I live in {city}, {country}.";
+//Console.WriteLine(greeting);
+
+// we want a class that will represent the properties of a object
